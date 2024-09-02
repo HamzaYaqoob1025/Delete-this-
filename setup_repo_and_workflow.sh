@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-REPO_NAME="https://github.com/HamzaYaqoob1025/tiles12.git"
+REPO_URL="https://github.com/HamzaYaqoob1025/tiles12.git"
 BRANCH_NAME="master"
 
 # Step 1: Initialize Git and Add Files
@@ -14,7 +14,7 @@ git commit -m "Initial commit: Add scripts and data"
 
 # Step 2: Set Remote Repository
 echo "Setting remote GitHub repository..."
-git remote add origin https://github.com/$(git config user.username)/$REPO_NAME.git
+git remote add origin $REPO_URL
 
 # Step 3: Push Initial Commit to GitHub
 echo "Pushing initial commit to GitHub..."
