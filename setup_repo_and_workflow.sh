@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-REPO_NAME="tiles12"
+REPO_NAME="https://github.com/HamzaYaqoob1025/tiles12.git"
 BRANCH_NAME="master"
 
 # Step 1: Initialize Git and Add Files
